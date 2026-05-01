@@ -1,0 +1,23 @@
+{
+  "seed": 7,
+  "device": "auto",
+  "dtype": "float32",
+  "data": {
+    "num_images": 10,
+    "image_size": 32,
+    "num_atoms": 8,
+    "kernel_size": 11,
+    "sparsity": 0.04,
+    "noise_std": 0.01,
+    "coefficient_scale": 1.0
+  },
+  "learning": {
+    "lambda": 0.05,
+    "outer_iters": 40,
+    "sparse_iters": 50,
+    "sparse_step": 0.05,
+    "dict_step": 0.8,
+    "bregman_rho": 0.25
+  },
+  "output_dir": "results/simulation"
+}

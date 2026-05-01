@@ -1,0 +1,46 @@
+# Python bytecode/cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Packaging/build output
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test, lint, and type-check caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+coverage.xml
+htmlcov/
+
+# Notebooks and editor/OS noise
+.ipynb_checkpoints/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local configuration/secrets
+.env
+.env.*
+!.env.example
+
+# Experiment outputs and model/data artifacts
+results/
+outputs/
+runs/
+checkpoints/
+*.pt
+*.pth
+*.npz
+*.npy
